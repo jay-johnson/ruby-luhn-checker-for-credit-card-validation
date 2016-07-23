@@ -1,0 +1,6 @@
+path
+*.lock
+*.swp
+*/*.swp
+*.swo
+*/*.swo

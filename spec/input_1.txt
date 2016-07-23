@@ -1,0 +1,8 @@
+Add Greg 4111111111111111 $1000
+Add Karla 5454545454545454 $3000
+Add Hank 1234567890123456 $2000
+Charge Greg $500
+Charge Greg $800
+Charge Karla $7
+Credit Karla $100
+Credit Hank $200
