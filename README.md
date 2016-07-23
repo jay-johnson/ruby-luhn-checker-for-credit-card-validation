@@ -1,6 +1,6 @@
 # Luhn Algorithm for Credit Card Validation in Ruby
 
-An implementation of the Luhn algorithm for validating credit cards written in ruby and using rspec for testing
+An implementation of the Luhn algorithm for validating credit cards written in Ruby and using RSpec for testing. This demonstrates how to maintain an account balance while processing and screeening credit card transactions.
 
 For more on the Luhn algorithm: https://en.wikipedia.org/wiki/Luhn_algorithm
 
@@ -44,7 +44,8 @@ For more on the Luhn algorithm: https://en.wikipedia.org/wiki/Luhn_algorithm
   ```
 
 ## Design Details
-I went with a simple 3 class system that has a general control flow:
+
+This repository uses 3 classes to handle validating credit cards and updating account balances. The general control flow is:
 
     run_processor (Determine Input Mode: STDIN or single-file)
         
@@ -158,7 +159,7 @@ I assumed that an account that has a valid card (even with a balance) and then t
     $
     ```
 
-## Validating Credits Cards
+## Validating Credit Cards
 
 1. Assuming your user is in the lib directory, run a single-file simulation with: 
 
